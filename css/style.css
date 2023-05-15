@@ -80,3 +80,11 @@ footer {
   height: 100%;
   border-radius: 50%;
 }
+
+.for-sp { display:none; }
+
+@media only screen and (max-width: 576px) {
+  .for-sp {
+    display: block;
+  }
+}
